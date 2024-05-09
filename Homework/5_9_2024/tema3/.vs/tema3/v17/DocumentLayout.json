@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andrei\\Desktop\\itschool\\Homework\\5_9_2024\\tema3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D7A18D-FDA8-466F-A5C5-9D3F628FC655}|tema3\\tema3.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Homework\\5_9_2024\\tema3\\tema3\\tema3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9D7A18D-FDA8-466F-A5C5-9D3F628FC655}|tema3\\tema3.vcxproj|solutionrelative:tema3\\tema3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tema3.cpp",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Homework\\5_9_2024\\tema3\\tema3\\tema3.cpp",
+              "RelativeDocumentMoniker": "tema3\\tema3.cpp",
+              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Homework\\5_9_2024\\tema3\\tema3\\tema3.cpp",
+              "RelativeToolTip": "tema3\\tema3.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-09T18:35:26.524Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
