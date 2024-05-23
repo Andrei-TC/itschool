@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andrei\\Desktop\\itschool\\Homework\\5_23_2024\\tema1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B317BC40-8543-4566-B0EE-F27BA3D1E585}|tema1\\tema1.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Homework\\5_23_2024\\tema1\\tema1\\tema1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B317BC40-8543-4566-B0EE-F27BA3D1E585}|tema1\\tema1.vcxproj|solutionrelative:tema1\\tema1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tema1.cpp",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Homework\\5_23_2024\\tema1\\tema1\\tema1.cpp",
+              "RelativeDocumentMoniker": "tema1\\tema1.cpp",
+              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Homework\\5_23_2024\\tema1\\tema1\\tema1.cpp",
+              "RelativeToolTip": "tema1\\tema1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-23T19:09:07.811Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
