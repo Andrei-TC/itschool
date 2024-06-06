@@ -2,20 +2,20 @@
 using namespace std;
 
 void produs() {
-	int nr;
+	int nr, n, i = 0;
 	int prod = 1;
+	cout << "Introdu numarul de iteratii: ";
+	cin >> n;
 	do {
-		cout << "Introdu numarul dorit: ";
+		cout << i + 1 << " - Introdu numarul dorit: ";
 		cin >> nr;
-		if (nr == 0)
-			break;
 		prod *= nr;
-	} while (nr != 0);
+		++i;
+	} while (i < n);
 	cout << "Produsul numerelor alese este: " << prod;
 }
 
 int main()
 {
-	cout << "Aplicatia se opreste la introducerea valorii 0" << endl;
 	produs();
 }

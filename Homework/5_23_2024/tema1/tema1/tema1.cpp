@@ -6,7 +6,7 @@ int suma(int x) {
 	int suma = 0;
 	do {
 		int cifre = x % 10;
-		suma = suma + cifre;
+		suma = suma + cifre; // suma = 0 + x
 		x /= 10;
 	} while (x > 0);
 	return suma;
@@ -15,7 +15,7 @@ int produs(int x) {
 	int produs = 1;
 	do {
 		int cifre = x % 10;
-		produs = produs * cifre;
+		produs = produs * cifre; // produs = 1 * x
 		x /= 10;
 	} while (x > 0);
 	return produs;
