@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{1F069673-3B0A-4E16-A81D-2CEBC11ABFB3}|CojocaruAndrei\\CojocaruAndrei.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Class\\CojocaruAndrei\\CojocaruAndrei\\CojocaruAndrei.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1F069673-3B0A-4E16-A81D-2CEBC11ABFB3}|CojocaruAndrei\\CojocaruAndrei.vcxproj|solutionrelative:CojocaruAndrei\\CojocaruAndrei.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F069673-3B0A-4E16-A81D-2CEBC11ABFB3}|CojocaruAndrei\\CojocaruAndrei.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Class\\CojocaruAndrei\\CojocaruAndrei\\elev.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1F069673-3B0A-4E16-A81D-2CEBC11ABFB3}|CojocaruAndrei\\CojocaruAndrei.vcxproj|solutionrelative:CojocaruAndrei\\elev.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F069673-3B0A-4E16-A81D-2CEBC11ABFB3}|CojocaruAndrei\\CojocaruAndrei.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Class\\CojocaruAndrei\\CojocaruAndrei\\elev.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1F069673-3B0A-4E16-A81D-2CEBC11ABFB3}|CojocaruAndrei\\CojocaruAndrei.vcxproj|solutionrelative:CojocaruAndrei\\elev.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F069673-3B0A-4E16-A81D-2CEBC11ABFB3}|CojocaruAndrei\\CojocaruAndrei.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Class\\CojocaruAndrei\\CojocaruAndrei\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1F069673-3B0A-4E16-A81D-2CEBC11ABFB3}|CojocaruAndrei\\CojocaruAndrei.vcxproj|solutionrelative:CojocaruAndrei\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "input.txt",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Class\\CojocaruAndrei\\CojocaruAndrei\\input.txt",
+              "RelativeDocumentMoniker": "CojocaruAndrei\\input.txt",
+              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Class\\CojocaruAndrei\\CojocaruAndrei\\input.txt",
+              "RelativeToolTip": "CojocaruAndrei\\input.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-20T15:45:33.427Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "elev.cpp",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Class\\CojocaruAndrei\\CojocaruAndrei\\elev.cpp",
+              "RelativeDocumentMoniker": "CojocaruAndrei\\elev.cpp",
+              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Class\\CojocaruAndrei\\CojocaruAndrei\\elev.cpp",
+              "RelativeToolTip": "CojocaruAndrei\\elev.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-20T16:58:22.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "elev.h",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Class\\CojocaruAndrei\\CojocaruAndrei\\elev.h",
+              "RelativeDocumentMoniker": "CojocaruAndrei\\elev.h",
+              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Class\\CojocaruAndrei\\CojocaruAndrei\\elev.h",
+              "RelativeToolTip": "CojocaruAndrei\\elev.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-20T16:51:40.692Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +76,7 @@
               "RelativeDocumentMoniker": "CojocaruAndrei\\CojocaruAndrei.cpp",
               "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Class\\CojocaruAndrei\\CojocaruAndrei\\CojocaruAndrei.cpp",
               "RelativeToolTip": "CojocaruAndrei\\CojocaruAndrei.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBMAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-07T16:17:43.463Z",
               "EditorCaption": ""

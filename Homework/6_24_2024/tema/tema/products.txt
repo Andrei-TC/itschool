@@ -1,0 +1,9 @@
+Iaurt 12.00 5
+Cipsuri 5.00 15
+CocaCola 5.99 30
+Cafea 16.59 50
+Rosii 25.99 15
+Margarina 15.99 15
+Castraveti 25.00 35
+Ceapa 25.00 25
+Saramura 3.99 7
