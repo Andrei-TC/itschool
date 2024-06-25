@@ -23,5 +23,13 @@
     <Text Include="products.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="raport.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="produs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

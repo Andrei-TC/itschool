@@ -1,4 +1,3 @@
 ﻿  CojocaruAndrei.cpp
-  elev.cpp
-  Generating Code...
+C:\Users\Andrei\Desktop\itschool\Class\CojocaruAndrei\CojocaruAndrei\CojocaruAndrei.cpp(42,6): warning C4101: 'el': unreferenced local variable
   CojocaruAndrei.vcxproj -> C:\Users\Andrei\Desktop\itschool\Class\CojocaruAndrei\x64\Debug\CojocaruAndrei.exe

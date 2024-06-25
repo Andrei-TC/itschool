@@ -11,13 +11,61 @@
 using namespace std;
 #include "elev.h"
 
-extern int x;
+void afisare(int v[3][3]) {
+	for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 3; j++) {
+			cout << v[i][j] << ' ';
+		}
+		cout << endl;
+	}
+}
 
+bool simetrica(int m[3][3], int n[3][3]) {
+	for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 3; j++) {
+			if (n[i][j] != m[i][j]) {
+				return false;
+			}
+		}
+	}
+	return true;
+}
 
 int main() {
-	elev p;
-	p.afisare();
-	cout << x;
+	int m[3][3];
+	int n[3][3];
+	fstream f("matrice.txt", ios::in);
+	if (!f) {
+		cout << "Eroare fisier" << endl;
+		return 1;
+	}
+	int el;
+	for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 3; j++) {
+			f >> m[i][j];
+			n[j][i] = m[i][j];
+		}
+	}
+	afisare(m);
+	cout << endl;
+	afisare(n);
+	cout << endl;
+	if (simetrica(m, n)) {
+		cout << "Simetrica";
+	}
+	else {
+		cout << "Nu este";
+	}
+	int produs = 1;
+	for (int i = 0; i < 3; ++i) {
+		produs *= m[i][i];
+	}
+	cout << "\nProdus dig. principala: " << produs;
+	produs = 1;
+	for (int i = 0; i < 3; i++) {
+		produs *= m[i][3 - 1 - i];
+	}
+	cout << "\nProdus dig. sec.: " << produs;
 }
 
 //
@@ -56,7 +104,7 @@ int main() {
 //	//else
 //	//	cout << "Fisierul s-a deschis cu succes!" << endl;
 //	//while (input_file >> line) {
-//	//	
+//	//
 //	//	reverse(line.begin(), line.end());
 //	//	output_file << line << endl;
 //	//}

@@ -29,6 +29,7 @@
     <Text Include="input.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="matrice.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="elev.h">

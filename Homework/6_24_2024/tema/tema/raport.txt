@@ -1,0 +1,11 @@
+Produs: Iaurt | Pret: 12.000000 | Cantitate: 5
+Produs: Cipsuri | Pret: 5.000000 | Cantitate: 15
+Produs: CocaCola | Pret: 5.990000 | Cantitate: 30
+Produs: Cafea | Pret: 16.590000 | Cantitate: 50
+Produs: Rosii | Pret: 25.990000 | Cantitate: 15
+Produs: Margarina | Pret: 15.990000 | Cantitate: 15
+Produs: Castraveti | Pret: 25.000000 | Cantitate: 35
+Produs: Ceapa | Pret: 25.000000 | Cantitate: 25
+Produs: Saramura | Pret: 3.990000 | Cantitate: 7
+Produs: IQOS | Pret: 66.989998 | Cantitate: 10
+Valoarea totala a produselor este: 3971.73
