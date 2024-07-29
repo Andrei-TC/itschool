@@ -18,9 +18,6 @@
     <ClCompile Include="CojocaruAndrei.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="elev.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="output.txt">
@@ -29,10 +26,15 @@
     <Text Include="input.txt">
       <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="matrice.txt" />
+    <Text Include="oop.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="elev.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clock.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

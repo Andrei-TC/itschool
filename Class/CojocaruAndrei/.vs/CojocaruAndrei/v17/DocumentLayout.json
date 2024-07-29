@@ -7,8 +7,7 @@
       "RelativeMoniker": "D:0:0:{1F069673-3B0A-4E16-A81D-2CEBC11ABFB3}|CojocaruAndrei\\CojocaruAndrei.vcxproj|solutionrelative:CojocaruAndrei\\CojocaruAndrei.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F069673-3B0A-4E16-A81D-2CEBC11ABFB3}|CojocaruAndrei\\CojocaruAndrei.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Class\\CojocaruAndrei\\CojocaruAndrei\\matrice.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{1F069673-3B0A-4E16-A81D-2CEBC11ABFB3}|CojocaruAndrei\\CojocaruAndrei.vcxproj|solutionrelative:CojocaruAndrei\\matrice.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\delete_scalar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,15 +22,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "matrice.txt",
-              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Class\\CojocaruAndrei\\CojocaruAndrei\\matrice.txt",
-              "RelativeDocumentMoniker": "CojocaruAndrei\\matrice.txt",
-              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Class\\CojocaruAndrei\\CojocaruAndrei\\matrice.txt",
-              "RelativeToolTip": "CojocaruAndrei\\matrice.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-06-25T16:39:37.845Z",
-              "EditorCaption": ""
+              "Title": "delete_scalar.cpp",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "ViewState": "AQIAABoAAAAAAAAAAAAUwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-25T16:41:35.542Z"
             },
             {
               "$type": "Document",
@@ -41,7 +39,7 @@
               "RelativeDocumentMoniker": "CojocaruAndrei\\CojocaruAndrei.cpp",
               "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Class\\CojocaruAndrei\\CojocaruAndrei\\CojocaruAndrei.cpp",
               "RelativeToolTip": "CojocaruAndrei\\CojocaruAndrei.cpp",
-              "ViewState": "AQIAADIAAAAAAAAAAAAqwEUAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-07T16:17:43.463Z",
               "EditorCaption": ""

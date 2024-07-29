@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andrei\\Desktop\\itschool\\Homework\\7_29_2024\\prob3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{820DA8B8-213D-4A9F-AF1E-7D3067B9CEA5}|prob3\\prob3.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Homework\\7_29_2024\\prob3\\prob3\\prob3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{820DA8B8-213D-4A9F-AF1E-7D3067B9CEA5}|prob3\\prob3.vcxproj|solutionrelative:prob3\\prob3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "prob3.cpp",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Homework\\7_29_2024\\prob3\\prob3\\prob3.cpp",
+              "RelativeDocumentMoniker": "prob3\\prob3.cpp",
+              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Homework\\7_29_2024\\prob3\\prob3\\prob3.cpp",
+              "RelativeToolTip": "prob3\\prob3.cpp",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAQwJEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-29T18:15:59.62Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
