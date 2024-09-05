@@ -1,0 +1,8 @@
+﻿  Project.cpp
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\modeTravel.h(10,1): warning C4005: 'RAND_MAX': macro redefinition
+  (compiling source file 'Project.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdlib.h(348,1):
+  see previous definition of 'RAND_MAX'
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\modeTravel.h(56,1): warning C4715: 'modeTravel::randLuck': not all control paths return a value
+  Project.vcxproj -> C:\Users\Andrei\Desktop\itschool\Project\v1\Project\x64\Debug\Project.exe

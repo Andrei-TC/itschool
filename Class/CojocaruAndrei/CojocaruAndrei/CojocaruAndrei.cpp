@@ -9,89 +9,63 @@
 #include <map>
 #include <math.h>
 #include <fstream>
+#include <conio.h>
+#include <stdexcept>
 using namespace std;
 
-class Wheel
-{
+class Vehicle {
+protected:
+	string make;
+	string model;
+	int year;
 public:
-	Wheel() = delete;
-	Wheel(string t, int* d) {
-		type = t;
-		dim = d;
+	Vehicle() { make = " "; model = " "; year = 0; }
+	Vehicle(string ma, string mo, int y) : make(ma), model(mo), year(y) {}
+	virtual void printDetails() {
+		cout << "Vehicle details" << endl;
+		cout << "---------------" << endl;
+		cout << make << ", model " << model << endl;
+		cout << "Year " << year << endl;
 	}
-	~Wheel()
-	{
-		if (dim)
-			delete dim;
-	}
-	Wheel(const Wheel& other) {
-		type = other.type;
-		dim = new int(*other.dim);
-	}
-
-	void print() const {
-		cout << "The wheel has the following dimension: " << *dim << " and the is for " << type << endl;
-	}
-private:
-	string type;
-	int* dim;
 };
 
-class Engine
-{
-public:
-	Engine() = default;
-	Engine(int hp, string t)
-	{
-		this->HP = hp;
-		this->type = t;
-	}
-	~Engine() = default;
-
-	void print() const
-	{
-		cout << "The engine has " << HP << " and is a type " << type << endl;
-	}
+class Car : public Vehicle {
 private:
-	int HP;
-	string type;
+	int numSeats;
+public:
+	Car(int s) : Vehicle("Mazda", "RX7", 1998) {
+		numSeats = s;
+	}
+	void printDetails() {
+		cout << "Vehicle details" << endl;
+		cout << "---------------" << endl;
+		cout << make << ", model " << model << endl;
+		cout << "Year " << year << endl;
+		cout << "Seats number: " << numSeats << endl;
+	}
 };
 
-class Car
-{
-public:
-	Car() = delete;
-	Car(Engine& e, vector<Wheel>& w)
-	{
-		this->e = e;
-		this->w = w;
-	}
-	~Car() = default;
-	Car(int engine_size, string engine_type, int wheel_size, string wheel_type) {
-		Engine temp(engine_size, engine_type);
-		e = temp;
-		w.reserve(4);
-		Wheel wtemp(wheel_type, new int(wheel_size));
-		w.push_back(wtemp);
-		w.push_back(wtemp);
-		w.push_back(wtemp);
-		w.push_back(wtemp);
-	}
-
-	void printCarDetails() const
-	{
-		cout << "The details about the car are: " << endl;
-		e.print();
-		for (const auto& el : w) {
-			el.print();
-		}
-	}
+class Truck : public Vehicle {
 private:
-	Engine e;
-	vector<Wheel> w;
+	double loadCapacity;
+public:
+	Truck(int load) : Vehicle("Scania", "XL", 2005) {
+		loadCapacity = load;
+	}
+	void printDetails() {
+		cout << "Vehicle details" << endl;
+		cout << "---------------" << endl;
+		cout << make << ", model " << model << endl;
+		cout << "Year " << year << endl;
+		cout << "Load capacity: " << loadCapacity << endl;
+	}
 };
 
-int main() {
-	Car c(177, "2.0", 19, "Summer");
-	c.printCarDetails();
+int main()
+{
+	Vehicle* car = new Car(3);
+	car->printDetails();
+	cout << "\n#####################\n" << endl;
+	Vehicle* truck = new Truck(2000);
+	truck->printDetails();
 }

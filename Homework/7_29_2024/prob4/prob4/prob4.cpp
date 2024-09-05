@@ -11,7 +11,7 @@ public:
 	virtual double area() = 0;
 	virtual string name() = 0;
 	friend double printArea(Shape& obj);
-	friend double printTotalArea(vector<Shape&> objs);
+	friend double printTotalArea(vector<Shape*>& objs);
 };
 
 class Rectangle : public Shape {
@@ -49,30 +49,35 @@ private:
 	double radius;
 };
 
-double printArea(Shape& obj) {
-	if (obj.name() == "Circle") {
-		cout << "Aria cercului este: " << obj.area() << "PI cm2" << endl;
+double printArea(Shape* obj) {
+	if (obj->name() == "Circle") {
+		cout << "Aria cercului este: " << obj->area() << "PI cm2" << endl;
 	}
-	else if (obj.name() == "Rectangle") {
-		cout << "Aria dreptunghiului este: " << obj.area() << " cm2" << endl;
+	else if (obj->name() == "Rectangle") {
+		cout << "Aria dreptunghiului este: " << obj->area() << " cm2" << endl;
 	}
 	else return 0;
 }
 
-double printTotalArea(vector<Shape> objs) {
-	int sum = 0;
-	for (auto const& el : objs) {
-		sum += el.area(); // ??
+double printTotalArea(vector<Shape*>& objs) {
+	float sum = 0;
+	for (const auto& el : objs) {
+		sum += el->area();
+		
 	}
 	return sum;
 }
 
 int main()
 {
-	Circle c(5);
-	Rectangle r(2, 5);
+	Shape* c = new Circle(5);
+	Shape* r = new Rectangle(2, 5);
 	printArea(c);
 	printArea(r);
-	vector<Shape> vec = { c, r };
-	cout << "Aria totala a formelor este: " << printTotalArea(vec);
+	vector<Shape*> v;
+	v.push_back(c);
+	v.push_back(r);
+	cout << "Aria totala a formelor este: " << printTotalArea(v) << " cm2" <<endl;
+	delete c;
+	delete r;
 }
