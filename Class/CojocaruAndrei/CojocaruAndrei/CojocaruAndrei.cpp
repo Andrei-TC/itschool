@@ -13,59 +13,55 @@
 #include <stdexcept>
 using namespace std;
 
-class Vehicle {
-protected:
-	string make;
-	string model;
-	int year;
-public:
-	Vehicle() { make = " "; model = " "; year = 0; }
-	Vehicle(string ma, string mo, int y) : make(ma), model(mo), year(y) {}
-	virtual void printDetails() {
-		cout << "Vehicle details" << endl;
-		cout << "---------------" << endl;
-		cout << make << ", model " << model << endl;
-		cout << "Year " << year << endl;
+struct Nod {
+	int data;
+	Nod* urm;
+	Nod(int val) {
+		data = val;
 	}
 };
 
-class Car : public Vehicle {
-private:
-	int numSeats;
-public:
-	Car(int s) : Vehicle("Mazda", "RX7", 1998) {
-		numSeats = s;
+int getLength(Nod* head) {
+	int lung = 0;
+	while (head != nullptr) {
+		lung++;
+		head = head->urm;
 	}
-	void printDetails() {
-		cout << "Vehicle details" << endl;
-		cout << "---------------" << endl;
-		cout << make << ", model " << model << endl;
-		cout << "Year " << year << endl;
-		cout << "Seats number: " << numSeats << endl;
+	return lung;
+}
+Nod* concat(Nod* head, Nod* h2) {
+	Nod* temp;
+	while (head->urm != nullptr) {
+		head = head->urm;
 	}
-};
+	head->urm = h2;
+	return temp;
+}
 
-class Truck : public Vehicle {
-private:
-	double loadCapacity;
-public:
-	Truck(int load) : Vehicle("Scania", "XL", 2005) {
-		loadCapacity = load;
+bool isPalindrom(Nod* head) {
+	vector<int> elemente;
+	while (head != nullptr) {
+		elemente.push_back(head->data);
+		head = head->urm;
 	}
-	void printDetails() {
-		cout << "Vehicle details" << endl;
-		cout << "---------------" << endl;
-		cout << make << ", model " << model << endl;
-		cout << "Year " << year << endl;
-		cout << "Load capacity: " << loadCapacity << endl;
+	for (int i = 0; i < elemente.size() / 2; i++) {
+		if (elemente[i] != elemente[elemente.size() - i - 1])
+			return false;
 	}
-};
+	return true;
+}
 
 int main()
 {
-	Vehicle* car = new Car(3);
-	car->printDetails();
-	cout << "\n#####################\n" << endl;
-	Vehicle* truck = new Truck(2000);
-	truck->printDetails();
+	Nod* head = nullptr;
+	head = new Nod(10);
+	Nod* sec = new Nod(12);
+	head->urm = sec;
+	Nod* th = new Nod(14);
+	sec->urm = th;
+	Nod* frh = new Nod(15);
+	th->urm = frh;
+	Nod* fit = new Nod(19);
+	frh->urm = fit;
+	cout << isPalindrom(head);
 }

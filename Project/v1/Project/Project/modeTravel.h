@@ -59,7 +59,7 @@ public:
 		encounter_road = 1;
 		encounter_event = 0;
 	}
-	
+
 	void switchChance(int lucky, Warrior& war) {
 		switch (randLuck(lucky))
 		{
@@ -76,7 +76,7 @@ public:
 			war.gainXP(25);
 			break;
 		default:
-			cout << "What happended? ";
+			std::cout << "What happended? ";
 			break;
 		}
 	}
@@ -85,54 +85,54 @@ public:
 		switch (1 + rand() % 3) {
 		case normal_r:
 			system("cls");
-			cout << "There is only one road ahead." << endl;
+			std::cout << "There is only one road ahead." << endl;
 			switchChance(lucky, war);
 			break;
 		case double_r:
 			system("cls");
-			cout << "There are two roads ahead." << endl;
-			cout << "Pick left? Or right?" << endl;
-			cout << "Action:   Left -> 1    Right -> 2" << endl;
+			std::cout << "There are two roads ahead." << endl;
+			std::cout << "Pick left? Or right?" << endl;
+			std::cout << "Action:   Left -> 1    Right -> 2" << endl;
 			switch (pickNr(2)) {
 			case 1:
 				system("cls");
-				cout << "You picked left, good luck traveler!" << endl;
-				cout << endl;
+				std::cout << "You picked left, good luck traveler!" << endl;
+				std::cout << endl;
 				switchChance(lucky, war);
 				break;
 			case 2:
 				system("cls");
-				cout << "You picked right. This is the right path!" << endl;
+				std::cout << "You picked right. This is the right path!" << endl;
 				switchChance(lucky, war);
 				break;
 			}
 			break;
 		case triple_r:
 			system("cls");
-			cout << "There are three roads ahead." << endl;
-			cout << "What are we picking?" << endl;
-			cout << "Action:   Left -> 1    Forward -> 2   Right -> 3" << endl;
+			std::cout << "There are three roads ahead." << endl;
+			std::cout << "What are we picking?" << endl;
+			std::cout << "Action:   Left -> 1    Forward -> 2   Right -> 3" << endl;
 			switch (pickNr(3)) {
 			case 1:
 				system("cls");
-				cout << "You picked left, good luck traveler!" << endl;
-				cout << endl;
+				std::cout << "You picked left, good luck traveler!" << endl;
+				std::cout << endl;
 				switchChance(lucky, war);
 				break;
 			case 2:
 				system("cls");
-				cout << "You picked the middle path. Here we go!" << endl;
+				std::cout << "You picked the middle path. Here we go!" << endl;
 				switchChance(lucky, war);
 				break;
 			case 3:
 				system("cls");
-				cout << "You picked right. This is the right path!" << endl;
+				std::cout << "You picked right. This is the right path!" << endl;
 				switchChance(lucky, war);
 				break;
 			}
 			break;
 		default:
-			cout << "Haolo";
+			std::cout << "Haolo";
 			break;
 		}
 	};

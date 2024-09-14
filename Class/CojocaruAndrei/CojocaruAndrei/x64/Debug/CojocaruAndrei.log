@@ -1,2 +1,2 @@
 ﻿  CojocaruAndrei.cpp
-  CojocaruAndrei.vcxproj -> C:\Users\Andrei\Desktop\itschool\Class\CojocaruAndrei\x64\Debug\CojocaruAndrei.exe
+C:\Users\Andrei\Desktop\itschool\Class\CojocaruAndrei\CojocaruAndrei\CojocaruAndrei.cpp(38,1): error C4700: uninitialized local variable 'temp' used

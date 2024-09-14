@@ -17,14 +17,15 @@ public:
 	Warrior() : hp(BASEHP), Stats(BASEPower,BASELuck, BASERes) {};
 
 	void showStats() {
-		cout << "Warrior"
-			<< "\n-Level: " << getCurrentLevel()
-			<< "\n-Exp: " << getCurrentXP() << "/" << getXpToNextLvl()
-			<< "\n-MaxHP: " << getMaxHp()
-			<< "\n-CurrentHP: " << getCurrentHp()
-			<< "\n-Power: " << getPower()
-			<< "\n-Luck: " << getLuck()
-			<< "\n-Resistance: " << getResistance()
+		std::cout << "\n\n\n\t\t\t";
+		std::cout << "\tWarrior"
+			<< "\n\t\t\t #################### "
+			<< "\n\t\t\t-Level: " << getCurrentLevel()
+			<< "\n\t\t\t->Exp: " << getCurrentXP() << "/" << getXpToNextLvl()
+			<< "\n\t\t\t->MaxHP: " << getMaxHp()
+			<< "\n\t\t\t->Power: " << getPower()
+			<< "\n\t\t\t->Luck: " << getLuck()
+			<< "\n\t\t\t->Resistance: " << getResistance()
 			<< "\n" << endl;
 	}
 

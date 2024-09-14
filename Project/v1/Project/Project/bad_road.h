@@ -1,82 +1,59 @@
 #pragma once
-#include <iostream>
 #include "warrior.h"
 #include "utils.h"
+#include "script.h"
 using namespace std;
 
 void en_dog(Warrior& war) {
-	cout << "#####################################################################################" << endl;
-	cout << "# You encountered a purple dog. Is moving his tail uncontrolablly when he sees you. #" << endl;
-	cout << "#                                   Do you pet him ?                                #" << endl;
-	cout << "#####################################################################################" << endl;
-	cout << endl;
-	cout << endl;
-	cout << "####################################################################" << endl;
-	cout << "Actions:      1 -> Pet him     2 -> Walk away   3 -> Attack him   ---> ";
+	bad_dog();
 	switch (pickNr(3)) {
 	case 1:
-		system("cls");
-		cout << "###############################################################################" << endl;
-		cout << "# You moved slowly to pet him. The dog smiled at you and started to bite you. #" << endl;
-		cout << "#               You tried to run, but he catched you again.                   #" << endl;
-		cout << "#                         You lost 3 health.                                  #" << endl;
-		cout << "###############################################################################" << endl;
+		bad_dog_1();
 		war.takeDamage(3);
 		break;
 	case 2:
-		system("cls");
-		cout << "###############################################################################" << endl;
-		cout << "# You turned around and runned as fast as you can... unfortunatly, he got you #" << endl;
-		cout << "#               by your leg. You are tierd and in pain. :(                    #" << endl;
-		cout << "#                         You lost 7 health.                                  #" << endl;
-		cout << "###############################################################################" << endl;
+		bad_dog_2();
 		war.takeDamage(7);
 		break;
 	case 3:
-		system("cls");
-		cout << "###############################################################################" << endl;
-		cout << "# -------------Not implemented yet :( try again later------------------------ #" << endl;
-		cout << "###############################################################################" << endl;
+		bad_dog_3();
 		break;
 	}
 }
 void en_path(Warrior& war) {
-	cout << "#####################################################################################" << endl;
-	cout << "# The path is cursed with a demonic script. You move extrmely slowly through it.    #" << endl;
-	cout << "#                                   What do you do?                                 #" << endl;
-	cout << "#####################################################################################" << endl;
-	cout << endl;
-	cout << endl;
-	cout << "###############################################################################" << endl;
-	cout << "Actions:      1 -> Go through     2 -> Wait to disapper   3 -> Nothing   ---> ";
+	bad_path();
 	switch (pickNr(3)) {
 	case 1:
-		system("cls");
-		cout << "#######################################################################################" << endl;
-		cout << "#    You tried to go through the cursed path. The more you go the slower you are.     #" << endl;
-		cout << "# You got exhausted and fainted to the ground. When you woke up, your skin is burned. #" << endl;
-		cout << "#                         You are in pain. Lost 5 hp.                                 #" << endl;
-		cout << "#######################################################################################" << endl;
+		bad_path_1();
 		war.takeDamage(5);
 		break;
 	case 2:
-		system("cls");
-		cout << "###############################################################################" << endl;
-		cout << "# You waited for the curse to disapper. You got to sleep for some hours.      #" << endl;
-		cout << "#            The curse is still there, but the power is weaker.               #" << endl;
-		cout << "#                               You healed 4.                                 #" << endl;
-		cout << "###############################################################################" << endl;
+		bad_path_2();
 		war.heal(4);
 		break;
 	case 3:
-		system("cls");
-		cout << "###############################################################################" << endl;
-		cout << "#     You stood there and did nothing. Sundenly, a purple dog aproches you.   #" << endl;
+		bad_path_3();
 		en_dog(war);
 		break;
 	}
 }
+void en_ivy(Warrior& war) {
+	bad_ivy();
+	switch (pickNr(3)) {
+	case 1:
+		bad_ivy_1();
+		war.takeDamage(2);
+		break;
+	case 2:
+		bad_ivy_2();
+		break;
+	case 3:
+		bad_ivy_3();
+		break;
+	}
+}
 
+////////////////////////////////
 void pickRoad_bad(Warrior& war) {
 	int picked = 1 + (rand() % 3);
 	switch (picked) {
@@ -87,9 +64,9 @@ void pickRoad_bad(Warrior& war) {
 		en_path(war);
 		break;
 	case 3:
-		cout << "You picked third bad road" << endl;
+		en_ivy(war);
 		break;
 	default:
-		cout << "Somehow default bad." << endl;
+		std::cout << "Somehow default bad." << endl;
 	}
 }

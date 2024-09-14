@@ -8,15 +8,20 @@
 #include <conio.h>
 #include "script.h"
 #include "utils.h"
+#include "loadingBar.h"
+#include "encounters.h"
 
 using namespace std;
 
 
 int main()
 {
+	system("COLOR 0e");
 	srand((unsigned)time(NULL));
 	Warrior war1;
 	modeTravel map;
+	vector<Encounters> encList;
+	loadingBar();
 	pIntro();
 	switch (pickNr(2))
 	{
@@ -46,8 +51,8 @@ int main()
 		}
 		
 	}
-	cout << endl;
-	cout << "------------------------" << endl;
-	cout << "-------GAME OVER--------" << endl;
-	cout << "------------------------" << endl;
+	std::cout << endl;
+	std::cout << "------------------------" << endl;
+	std::cout << "-------GAME OVER--------" << endl;
+	std::cout << "------------------------" << endl;
 }

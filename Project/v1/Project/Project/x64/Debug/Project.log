@@ -1,5 +1,5 @@
 ﻿  Project.cpp
-C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\modeTravel.h(10,1): warning C4005: 'RAND_MAX': macro redefinition
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\modeTravel.h(11,1): warning C4005: 'RAND_MAX': macro redefinition
   (compiling source file 'Project.cpp')
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdlib.h(348,1):
   see previous definition of 'RAND_MAX'

@@ -3,43 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\modeTravel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|solutionrelative:Project\\modeTravel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\Project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|solutionrelative:Project\\Project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\bad_road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|solutionrelative:Project\\bad_road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\normal_road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|solutionrelative:Project\\normal_road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\good_road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|solutionrelative:Project\\good_road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\warrior.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|solutionrelative:Project\\warrior.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\road_type.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|solutionrelative:Project\\road_type.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\script.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|solutionrelative:Project\\script.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\bad_road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|solutionrelative:Project\\bad_road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\encounters.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|solutionrelative:Project\\encounters.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\Project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|solutionrelative:Project\\Project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\road_type.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|solutionrelative:Project\\road_type.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\loadingBar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|solutionrelative:Project\\loadingBar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\good_road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|solutionrelative:Project\\good_road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\modeTravel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|solutionrelative:Project\\modeTravel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\levelSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|solutionrelative:Project\\levelSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\conio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\warrior.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|solutionrelative:Project\\warrior.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66EEAA5F-6FEF-4B10-B0EB-CBAA39D6F825}|Project\\Project.vcxproj|C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\hp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -53,35 +58,140 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "levelSystem.h",
-              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\levelSystem.h",
-              "RelativeDocumentMoniker": "Project\\levelSystem.h",
-              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\levelSystem.h",
-              "RelativeToolTip": "Project\\levelSystem.h",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-03T23:20:42.908Z"
+              "DocumentIndex": 4,
+              "Title": "Project.cpp",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\Project.cpp",
+              "RelativeDocumentMoniker": "Project\\Project.cpp",
+              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\Project.cpp",
+              "RelativeToolTip": "Project\\Project.cpp",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-15T11:42:51.469Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "conio.h",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\conio.h",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\conio.h",
-              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\conio.h",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\conio.h",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAuwBIAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "road_type.h",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\road_type.h",
+              "RelativeDocumentMoniker": "Project\\road_type.h",
+              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\road_type.h",
+              "RelativeToolTip": "Project\\road_type.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-03T22:49:15.637Z"
+              "WhenOpened": "2024-09-03T19:50:10.883Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "warrior.h",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\warrior.h",
+              "RelativeDocumentMoniker": "Project\\warrior.h",
+              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\warrior.h",
+              "RelativeToolTip": "Project\\warrior.h",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-03T21:18:13.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "encounters.h",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\encounters.h",
+              "RelativeDocumentMoniker": "Project\\encounters.h",
+              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\encounters.h",
+              "RelativeToolTip": "Project\\encounters.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-14T20:01:47.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "bad_road.h",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\bad_road.h",
+              "RelativeDocumentMoniker": "Project\\bad_road.h",
+              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\bad_road.h",
+              "RelativeToolTip": "Project\\bad_road.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAIAwwCcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-03T21:16:02.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "normal_road.h",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\normal_road.h",
+              "RelativeDocumentMoniker": "Project\\normal_road.h",
+              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\normal_road.h",
+              "RelativeToolTip": "Project\\normal_road.h",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-03T21:15:58.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "script.h",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\script.h",
+              "RelativeDocumentMoniker": "Project\\script.h",
+              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\script.h",
+              "RelativeToolTip": "Project\\script.h",
+              "ViewState": "AQIAAKYAAAAAAAAAAADwv7wAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-03T23:29:02.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "loadingBar.h",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\loadingBar.h",
+              "RelativeDocumentMoniker": "Project\\loadingBar.h",
+              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\loadingBar.h",
+              "RelativeToolTip": "Project\\loadingBar.h",
+              "ViewState": "AQIAABUAAAAAAAAAAADwvy0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-14T17:58:49.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "good_road.h",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\good_road.h",
+              "RelativeDocumentMoniker": "Project\\good_road.h",
+              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\good_road.h",
+              "RelativeToolTip": "Project\\good_road.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-03T21:16:01.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "modeTravel.h",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\modeTravel.h",
+              "RelativeDocumentMoniker": "Project\\modeTravel.h",
+              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\modeTravel.h",
+              "RelativeToolTip": "Project\\modeTravel.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-03T17:36:26.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "hp.h",
               "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\hp.h",
               "RelativeDocumentMoniker": "Project\\hp.h",
@@ -93,100 +203,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "road_type.h",
-              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\road_type.h",
-              "RelativeDocumentMoniker": "Project\\road_type.h",
-              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\road_type.h",
-              "RelativeToolTip": "Project\\road_type.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
+              "DocumentIndex": 9,
+              "Title": "levelSystem.h",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\levelSystem.h",
+              "RelativeDocumentMoniker": "Project\\levelSystem.h",
+              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\levelSystem.h",
+              "RelativeToolTip": "Project\\levelSystem.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-03T19:50:10.883Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "warrior.h",
-              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\warrior.h",
-              "RelativeDocumentMoniker": "Project\\warrior.h",
-              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\warrior.h",
-              "RelativeToolTip": "Project\\warrior.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-03T21:18:13.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "bad_road.h",
-              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\bad_road.h",
-              "RelativeDocumentMoniker": "Project\\bad_road.h",
-              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\bad_road.h",
-              "RelativeToolTip": "Project\\bad_road.h",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABcAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-03T21:16:02.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "good_road.h",
-              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\good_road.h",
-              "RelativeDocumentMoniker": "Project\\good_road.h",
-              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\good_road.h",
-              "RelativeToolTip": "Project\\good_road.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-03T21:16:01.453Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "normal_road.h",
-              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\normal_road.h",
-              "RelativeDocumentMoniker": "Project\\normal_road.h",
-              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\normal_road.h",
-              "RelativeToolTip": "Project\\normal_road.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-03T21:15:58.569Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "modeTravel.h",
-              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\modeTravel.h",
-              "RelativeDocumentMoniker": "Project\\modeTravel.h",
-              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\modeTravel.h",
-              "RelativeToolTip": "Project\\modeTravel.h",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAD4AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-03T17:36:26.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "script.h",
-              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\script.h",
-              "RelativeDocumentMoniker": "Project\\script.h",
-              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\script.h",
-              "RelativeToolTip": "Project\\script.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-03T23:29:02.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Project.cpp",
-              "DocumentMoniker": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\Project.cpp",
-              "RelativeDocumentMoniker": "Project\\Project.cpp",
-              "ToolTip": "C:\\Users\\Andrei\\Desktop\\itschool\\Project\\v1\\Project\\Project\\Project.cpp",
-              "RelativeToolTip": "Project\\Project.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-15T11:42:51.469Z"
+              "WhenOpened": "2024-09-03T23:20:42.908Z"
             }
           ]
         }
