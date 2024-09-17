@@ -20,7 +20,6 @@ int main()
 	srand((unsigned)time(NULL));
 	Warrior war1;
 	modeTravel map;
-	vector<Encounters> encList;
 	loadingBar();
 	pIntro();
 	switch (pickNr(2))

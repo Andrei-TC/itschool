@@ -58,6 +58,50 @@ void pActionBar(Warrior& war) {
 	std::cout << "->> ";
 }
 
+
+void two_roads() {
+	std::cout << "\n\n\n\t\t\t";
+	std::cout << "##############################################################################" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#   The road is forking into 2 other roads. To the left seems ok, but the    #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#                   but the right path... has a mistirious aura.             #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#                             Which one do you choose?                       #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "##############################################################################" << endl;
+	std::cout << "\n\n\n\t\t\t";
+	loadingLine(78);
+	std::cout << "\t\t\t";
+	std::cout << "1 -> Left \t\t\t\t2 -> Right";
+	std::cout << "\n\t\t\t";
+	std::cout << "##############################################################################" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "->>";
+}
+void three_roads() {
+	std::cout << "\n\n\n\t\t\t";
+	std::cout << "##############################################################################" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#                     The road is forking into 3 other roads.                #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#    Left is glowing with   |   Middle: all the wild  |  The right one has   #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#    a redish color...      |   life seems alive here |  the clouds over it  #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#                             Which one do you choose?                       #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "##############################################################################" << endl;
+	std::cout << "\n\n\n\t\t\t";
+	loadingLine(78);
+	std::cout << "\t\t\t";
+	std::cout << "1 -> Left \t\t\t2 -> Middle \t\t\t3 -> Right";
+	std::cout << "\n\t\t\t";
+	std::cout << "##############################################################################" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "->>";
+}
+
 void bad_dog() {
 	std::cout << "\n\n\n\t\t\t";
 	std::cout << "##############################################################################" << endl;
@@ -299,6 +343,123 @@ void norm_fishing_3() {
 	std::cout << "#                                                                            #" << endl;
 	std::cout << "\t\t\t";
 	std::cout << "#                               +5 Health points                             #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "##############################################################################" << endl;
+}
+
+void norm_sun() {
+	std::cout << "\n\n\n\t\t\t";
+	std::cout << "##############################################################################" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#      The sun is shinning so bright and hot, you feel your body melting.    #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#           There is a tree, an wooden house and a hole in the ground.       #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#                         How do you choose to cover?                        #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "##############################################################################" << endl;
+	std::cout << "\n\n\n\t\t\t";
+	loadingLine(78);
+	std::cout << "\t\t\t";
+	std::cout << "1 -> Tree \t\t2 -> Wooden house \t\t3 -> Hole"; // Implement items -> fishing rod
+	std::cout << "\n\t\t\t";
+	std::cout << "##############################################################################" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "->>";
+}
+void norm_sun_1() {
+	system("cls");
+	std::cout << "\n\n\n\t\t\t";
+	std::cout << "##############################################################################" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#    You pick to cover under a tree. Right away the leafs are bursting into  #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#    fire. The is no shade no more. You skin is boiling and full of burning  #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#              marks. You are in much pain and needing aid kit.              #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#                                                                            #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#                               -10 Health points                            #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "##############################################################################" << endl;
+}
+void norm_sun_2() {
+	system("cls");
+	std::cout << "\n\n\n\t\t\t";
+	std::cout << "##############################################################################" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#   You entered the house. There are a lot of stuff throwed around, but it   #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#         seems that no one is home. You are desgusted by all the rats       #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#                    and bugs that are climbing on you.                      #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#                    You found an item! A misterious cloth.                  #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "##############################################################################" << endl;
+}
+void norm_sun_3() {
+	system("cls");
+	std::cout << "\n\n\n\t\t\t";
+	std::cout << "##############################################################################" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#     As soon as you tried to enter the hole, a creature grabs you by the    #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#         hand and pulls you in. You tried to escape, but no succes.         #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#         You wake up after a while with sever cuts and broken bones.        #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#                                                                            #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#                               -10 Health points                            #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "##############################################################################" << endl;
+}
+
+// Good outcome ----------------------
+
+void good_witch() {
+	std::cout << "\n\n\n\t\t\t";
+	std::cout << "##############################################################################" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#      You walk apon a witch. She needs help with the grave that is digging. #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#                            Do you help her?                                #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "##############################################################################" << endl;
+	std::cout << "\n\n\n\t\t\t";
+	loadingLine(78);
+	std::cout << "\t\t\t";
+	std::cout << "1 -> Yes \t\t\t\t2 -> No thank you"; 
+	std::cout << "\n\t\t\t";
+	std::cout << "##############################################################################" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "->>";
+}
+void good_witch_1() {
+	system("cls");
+	std::cout << "\n\n\n\t\t\t";
+	std::cout << "##############################################################################" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#    You choose to help the witch. After digging the grave, she throwed      #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#    inside her unalive cat. The witch thank you for your help and gifted    #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#             a green potion, that she said it will cure any poison.         #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#                                                                            #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#                     Item recived: Poison resistent potion x1               #" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "##############################################################################" << endl;
+}
+void good_witch_2() {
+	system("cls");
+	std::cout << "\n\n\n\t\t\t";
+	std::cout << "##############################################################################" << endl;
+	std::cout << "\t\t\t";
+	std::cout << "#                        She will remember that...                           #" << endl;
 	std::cout << "\t\t\t";
 	std::cout << "##############################################################################" << endl;
 }

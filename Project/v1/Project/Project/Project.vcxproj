@@ -131,14 +131,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="archer.h" />
-    <ClInclude Include="bad_road.h" />
     <ClInclude Include="encounters.h" />
     <ClInclude Include="events.h" />
-    <ClInclude Include="good_road.h" />
     <ClInclude Include="hp.h" />
     <ClInclude Include="levelSystem.h" />
     <ClInclude Include="loadingBar.h" />
-    <ClInclude Include="normal_road.h" />
     <ClInclude Include="road_type.h" />
     <ClInclude Include="script.h" />
     <ClInclude Include="stats.h" />

@@ -2,13 +2,10 @@
 #include <iostream>
 #include  <cstdlib>
 #include "road_type.h"
-#include "good_road.h"
-#include "normal_road.h"
-#include "bad_road.h"
 #include "warrior.h"
 #include "utils.h"
+#include "encounters.h"
 using namespace std;
-#define RAND_MAX 3
 
 class modeTravel {
 private:
@@ -29,7 +26,7 @@ private:
 				return 1;
 			}
 		}
-		if (c > 15 && c < 50) {
+		else if (c > 15 && c < 50) {
 			// Normal -> often
 			if (temp < 15) {
 				return 3;
@@ -41,7 +38,7 @@ private:
 				return 1;
 			}
 		}
-		if (c >= 50) {
+		else if (c >= 50) {
 			// Bad -> rarly
 			if (temp < 5) {
 				return 3;
@@ -53,6 +50,8 @@ private:
 				return 1;
 			}
 		}
+		return 0;
+		std::cout << "Error";
 	}
 public:
 	modeTravel() {
@@ -60,19 +59,44 @@ public:
 		encounter_event = 0;
 	}
 
+	unsigned int randEnc(vector<Encounters*> list) {
+		int random = rand() % list.size();
+		return random;
+	}
+
 	void switchChance(int lucky, Warrior& war) {
+		vector<Encounters*> encListbad;
+		Encounters* dog = new enc_dog;
+		encListbad.push_back(dog);
+		Encounters* path = new enc_path;
+		encListbad.push_back(path);
+		Encounters* ivy = new enc_ivy;
+		encListbad.push_back(ivy);
+
+		vector<Encounters*> encListNorm;
+		Encounters* normal = new enc_normal;
+		encListNorm.push_back(normal);
+		Encounters* fishing = new enc_fishing;
+		encListNorm.push_back(fishing);
+		Encounters* sun = new enc_sun;
+		encListNorm.push_back(sun);
+
+		vector<Encounters*> encListGood;
+		Encounters* witch = new enc_witch;
+		encListGood.push_back(witch);
+
 		switch (randLuck(lucky))
 		{
 		case 1:
-			pickRoad_good(war);
+			encListGood.at(randEnc(encListGood))->encounter(war);
 			war.gainXP(20);
 			break;
 		case 2:
-			pickRoad_normal(war);
+			encListNorm.at(randEnc(encListNorm))->encounter(war);
 			war.gainXP(10);
 			break;
 		case 3:
-			pickRoad_bad(war);
+			encListbad.at(randEnc(encListbad))->encounter(war);
 			war.gainXP(25);
 			break;
 		default:
@@ -85,33 +109,25 @@ public:
 		switch (1 + rand() % 3) {
 		case normal_r:
 			system("cls");
-			std::cout << "There is only one road ahead." << endl;
 			switchChance(lucky, war);
 			break;
 		case double_r:
 			system("cls");
-			std::cout << "There are two roads ahead." << endl;
-			std::cout << "Pick left? Or right?" << endl;
-			std::cout << "Action:   Left -> 1    Right -> 2" << endl;
+			two_roads();
 			switch (pickNr(2)) {
 			case 1:
 				system("cls");
-				std::cout << "You picked left, good luck traveler!" << endl;
-				std::cout << endl;
 				switchChance(lucky, war);
 				break;
 			case 2:
 				system("cls");
-				std::cout << "You picked right. This is the right path!" << endl;
 				switchChance(lucky, war);
 				break;
 			}
 			break;
 		case triple_r:
 			system("cls");
-			std::cout << "There are three roads ahead." << endl;
-			std::cout << "What are we picking?" << endl;
-			std::cout << "Action:   Left -> 1    Forward -> 2   Right -> 3" << endl;
+			three_roads();
 			switch (pickNr(3)) {
 			case 1:
 				system("cls");

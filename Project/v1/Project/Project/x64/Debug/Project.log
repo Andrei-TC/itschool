@@ -1,8 +1,79 @@
 ﻿  Project.cpp
-C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\modeTravel.h(11,1): warning C4005: 'RAND_MAX': macro redefinition
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(14,3): error C3861: 'bad_dog': identifier not found
   (compiling source file 'Project.cpp')
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdlib.h(348,1):
-  see previous definition of 'RAND_MAX'
   
-C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\modeTravel.h(56,1): warning C4715: 'modeTravel::randLuck': not all control paths return a value
-  Project.vcxproj -> C:\Users\Andrei\Desktop\itschool\Project\v1\Project\x64\Debug\Project.exe
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(17,4): error C3861: 'bad_dog_1': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(21,4): error C3861: 'bad_dog_2': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(25,4): error C3861: 'bad_dog_3': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(35,3): error C3861: 'bad_path': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(38,4): error C3861: 'bad_path_1': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(42,4): error C3861: 'bad_path_2': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(46,4): error C3861: 'bad_path_3': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(56,3): error C3861: 'bad_ivy': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(59,4): error C3861: 'bad_ivy_1': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(63,4): error C3861: 'bad_ivy_2': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(66,4): error C3861: 'bad_ivy_3': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(76,3): error C3861: 'norm_normal_road': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(83,3): error C3861: 'norm_fishing': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(86,4): error C3861: 'norm_fishing_1': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(90,4): error C3861: 'norm_fishing_2': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(94,4): error C3861: 'norm_fishing_3': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(103,3): error C3861: 'norm_sun': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(106,4): error C3861: 'norm_sun_1': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(110,4): error C3861: 'norm_sun_2': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(114,4): error C3861: 'norm_sun_3': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(124,3): error C3861: 'good_witch': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(127,4): error C3861: 'good_witch_1': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\encounters.h(131,4): error C3861: 'good_witch_2': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\modeTravel.h(116,4): error C3861: 'two_roads': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\modeTravel.h(130,4): error C3861: 'three_roads': identifier not found
+  (compiling source file 'Project.cpp')
+  
