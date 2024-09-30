@@ -13,6 +13,7 @@ public:
 		if (new_maxHP < 1)
 			return false;
 		maxHP = new_maxHP;
+		currentHP = maxHP;
 		if (currentHP > maxHP)
 			currentHP = maxHP;
 		return true;

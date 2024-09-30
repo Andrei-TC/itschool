@@ -9,8 +9,6 @@ using namespace std;
 
 class modeTravel {
 private:
-	int encounter_road;
-	int encounter_event;
 	unsigned int randLuck(int c) {
 		int temp = ((c * 100) + (rand() % 100)) % 100;
 
@@ -54,11 +52,6 @@ private:
 		std::cout << "Error";
 	}
 public:
-	modeTravel() {
-		encounter_road = 1;
-		encounter_event = 0;
-	}
-
 	unsigned int randEnc(vector<Encounters*> list) {
 		int random = rand() % list.size();
 		return random;
@@ -72,6 +65,14 @@ public:
 		encListbad.push_back(path);
 		Encounters* ivy = new enc_ivy;
 		encListbad.push_back(ivy);
+		Encounters* cursed_statue = new enc_cursed_statue;
+		encListbad.push_back(cursed_statue);
+		Encounters* mysterious_figure = new enc_mysterious_figure;
+		encListbad.push_back(mysterious_figure);
+		Encounters* ruins = new enc_forsaken_ruins;
+		encListbad.push_back(ruins);
+		Encounters* oasis = new enc_cursed_oasis;
+		encListbad.push_back(oasis);
 
 		vector<Encounters*> encListNorm;
 		Encounters* normal = new enc_normal;
@@ -84,6 +85,10 @@ public:
 		vector<Encounters*> encListGood;
 		Encounters* witch = new enc_witch;
 		encListGood.push_back(witch);
+		Encounters* whisper = new enc_whispering_glade;
+		encListGood.push_back(whisper);
+		Encounters* spring = new enc_sacred_spring;
+		encListGood.push_back(spring);
 
 		switch (randLuck(lucky))
 		{
@@ -103,6 +108,7 @@ public:
 			std::cout << "What happended? ";
 			break;
 		}
+		delete dog, ivy, normal, witch, sun, fishing, path, mysterious_figure, cursed_statue;
 	}
 
 	void travel(int lucky, Warrior& war) {
@@ -131,18 +137,15 @@ public:
 			switch (pickNr(3)) {
 			case 1:
 				system("cls");
-				std::cout << "You picked left, good luck traveler!" << endl;
-				std::cout << endl;
+
 				switchChance(lucky, war);
 				break;
 			case 2:
 				system("cls");
-				std::cout << "You picked the middle path. Here we go!" << endl;
 				switchChance(lucky, war);
 				break;
 			case 3:
 				system("cls");
-				std::cout << "You picked right. This is the right path!" << endl;
 				switchChance(lucky, war);
 				break;
 			}

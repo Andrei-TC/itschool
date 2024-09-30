@@ -19,6 +19,9 @@ public:
 	lvltype getCurrentLevel() {
 		return currentLevel;
 	}
+	void makeLevel(int lvl) {
+		currentLevel = lvl;
+	}
 	xptype getCurrentXP() {
 		return currentXP;
 	}

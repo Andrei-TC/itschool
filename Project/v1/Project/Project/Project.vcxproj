@@ -131,9 +131,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="archer.h" />
+    <ClInclude Include="battleSystem.h" />
     <ClInclude Include="encounters.h" />
+    <ClInclude Include="enemy.h" />
     <ClInclude Include="events.h" />
     <ClInclude Include="hp.h" />
+    <ClInclude Include="itemSystem.h" />
     <ClInclude Include="levelSystem.h" />
     <ClInclude Include="loadingBar.h" />
     <ClInclude Include="road_type.h" />
@@ -143,6 +146,9 @@
     <ClInclude Include="utils.h" />
     <ClInclude Include="warrior.h" />
     <ClInclude Include="wizard.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

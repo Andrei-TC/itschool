@@ -14,7 +14,7 @@ public:
 	static const stype PowerGrowth = 2;
 	static const stype LuckGrowth = 1;
 	static const stype ResGrowth = 3;
-	Warrior() : hp(BASEHP), Stats(BASEPower,BASELuck, BASERes) {};
+	Warrior() : hp(BASEHP), Stats(BASEPower, BASELuck, BASERes), name("Warrior") {};
 
 	void showStats() {
 		std::cout << "\n\n\n\t\t\t";
@@ -27,6 +27,11 @@ public:
 			<< "\n\t\t\t->Luck: " << getLuck()
 			<< "\n\t\t\t->Resistance: " << getResistance()
 			<< "\n" << endl;
+		std::cout << "\t\t\t####################" << endl;
+		std::cout << endl;
+	}
+	string getName() {
+		return name;
 	}
 
 private:
@@ -34,6 +39,5 @@ private:
 		setMaxHp(HPGrowth + getMaxHp());
 		increaseStats(PowerGrowth, LuckGrowth, ResGrowth);
 	}
-
-
+	string name;
 };

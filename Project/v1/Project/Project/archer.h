@@ -14,13 +14,16 @@ public:
 	static const stype PowerGrowth = 2;
 	static const stype LuckGrowth = 3;
 	static const stype ResGrowth = 1;
-	Archer() : hp(BASEHP), Stats(BASEPower, BASELuck, BASERes) {};
+	Archer() : hp(BASEHP), Stats(BASEPower, BASELuck, BASERes), name("Archer") {};
+	string getName() {
+		return name;
+	}
 
 private:
 	void LevelUp() override {
 		setMaxHp(HPGrowth + getMaxHp());
 		increaseStats(PowerGrowth, LuckGrowth, ResGrowth);
 	}
-
+	string name;
 
 };
