@@ -46,3 +46,4 @@ Some of the files are:
 ## Gameplay Flow
 
 - The game progresses as the player makes decisions in various encounter scenarios. Each decision may lead to combat, a peaceful resolution, or other story outcomes. The player’s inventory and health are affected by these decisions.
+![alt text](https://github.com/Andrei-TC/itschool/blob/main/Project/v1/Project/ss2.png?raw=true)
