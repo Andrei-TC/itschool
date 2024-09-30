@@ -1,6 +1,7 @@
 # Finding Arthur (demo)
 
 This project is a command-line adventure game centered around encounters. Players assume the role of a warrior who navigates through a series of challenges, including combat, exploration, and item utilization. The game features a diverse array of scenarios, each with distinct outcomes influenced by the players' decisions and the items at their disposal.
+![alt text](https://github.com/Andrei-TC/itschool/blob/main/Project/v1/Project/ss1.png?raw=true)
 
 ## Features
 
@@ -10,6 +11,8 @@ This project is a command-line adventure game centered around encounters. Player
 - Healing and damage mechanics
 - Dynamic inventory system
 - Story-driven gameplay with narrative choices
+  
+![alt text](https://github.com/Andrei-TC/itschool/blob/main/Project/v1/Project/ss3.png?raw=true)
 
 ## Starting the Game
 
@@ -27,6 +30,8 @@ This project requires the following dependencies:
 - C++ compiler
 - C++ Standard Library (like vector, string, algorithm, and so on... )
 
+![alt text](https://github.com/Andrei-TC/itschool/blob/main/Project/v1/Project/ss4.png?raw=true)
+
 ## File Structure
 
 Some of the files are:
@@ -40,4 +45,4 @@ Some of the files are:
 
 ## Gameplay Flow
 
-- The game progresses as the player makes decisions in various encounter scenarios. Each decision may lead to combat, a peaceful resolution, or other story outcomes. The player’s inventory and health are affected by these decisions.
+- The game progresses as the player makes decisions in various encounter scenarios. Each decision may lead to combat, a peaceful resolution, or other story outcomes. The playerâ€™s inventory and health are affected by these decisions.
