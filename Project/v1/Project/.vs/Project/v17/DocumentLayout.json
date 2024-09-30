@@ -83,8 +83,7 @@
               "ViewState": "AQIAABYAAAAAAAAAAAApwCsAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-15T11:42:51.469Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -97,8 +96,7 @@
               "ViewState": "AQIAAAcAAAAAAAAAAAAAwBYAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-29T13:23:12.819Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -111,8 +109,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-29T13:34:50.506Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -137,8 +134,7 @@
               "RelativeToolTip": "Project\\battleSystem.h",
               "ViewState": "AQIAAFQAAAAAAAAAAAAAAEMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-29T14:14:25.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T14:14:25.508Z"
             },
             {
               "$type": "Document",
@@ -150,8 +146,7 @@
               "RelativeToolTip": "Project\\encounters.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-14T20:01:47.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T20:01:47.39Z"
             },
             {
               "$type": "Document",
@@ -163,8 +158,7 @@
               "RelativeToolTip": "Project\\script.h",
               "ViewState": "AQIAAAUBAAAAAAAAAAAQwBUBAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-03T23:29:02.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T23:29:02.376Z"
             },
             {
               "$type": "Document",
@@ -176,8 +170,7 @@
               "RelativeToolTip": "Project\\itemSystem.h",
               "ViewState": "AQIAAE4AAAAAAAAAAAAAACgAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-30T08:48:01.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T08:48:01.669Z"
             },
             {
               "$type": "Document",
@@ -189,8 +182,7 @@
               "RelativeToolTip": "Project\\wizard.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-29T13:37:06.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T13:37:06.11Z"
             },
             {
               "$type": "Document",
@@ -202,8 +194,7 @@
               "RelativeToolTip": "Project\\stats.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-17T12:50:18.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T12:50:18.907Z"
             },
             {
               "$type": "Document",
@@ -215,8 +206,7 @@
               "RelativeToolTip": "Project\\utils.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-16T14:05:38.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T14:05:38.144Z"
             },
             {
               "$type": "Document",
@@ -228,8 +218,7 @@
               "RelativeToolTip": "Project\\modeTravel.h",
               "ViewState": "AQIAAAcAAAAAAAAAAAAgwDUAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-03T17:36:26.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T17:36:26.805Z"
             },
             {
               "$type": "Document",
@@ -241,8 +230,7 @@
               "RelativeToolTip": "Project\\warrior.h",
               "ViewState": "AQIAAA0AAAAAAAAAAAApwB0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-03T21:18:13.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T21:18:13.557Z"
             },
             {
               "$type": "Document",
@@ -254,8 +242,7 @@
               "RelativeToolTip": "Project\\loadingBar.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-14T17:58:49.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T17:58:49.689Z"
             },
             {
               "$type": "Document",
@@ -267,8 +254,7 @@
               "RelativeToolTip": "Project\\hp.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-03T22:01:01.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T22:01:01.359Z"
             }
           ]
         }

@@ -1,16 +1,1 @@
-﻿  Project.cpp
-C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\enemy.h(23,31): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-  (compiling source file 'Project.cpp')
-  
-C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\battleSystem.h(28,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-  (compiling source file 'Project.cpp')
-  
-C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\battleSystem.h(51,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-  (compiling source file 'Project.cpp')
-  
-C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\battleSystem.h(66,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-  (compiling source file 'Project.cpp')
-  
-C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\battleSystem.h(43,1): warning C4715: 'BattleSystem::playerTurn': not all control paths return a value
-C:\Users\Andrei\Desktop\itschool\Project\v1\Project\Project\battleSystem.h(86,1): warning C4715: 'BattleSystem::enemyTurn': not all control paths return a value
-  Project.vcxproj -> C:\Users\Andrei\Desktop\itschool\Project\v1\Project\x64\Debug\Project.exe
+﻿  Project.vcxproj -> C:\Users\Andrei\Desktop\itschool\Project\v1\Project\x64\Debug\Project.exe
